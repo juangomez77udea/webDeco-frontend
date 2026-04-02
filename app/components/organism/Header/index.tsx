@@ -7,8 +7,13 @@ const index = () => {
       return (
             <header style={{ background: 'linear-gradient(to right, #659FC8, #8ABD95)' }}>
                   <div className='flex items-center justify-between px-6 py-3'>
-                        <div className='flex-1'>
-                              <Image src='/logo.png' alt='Logo' width={100} height={100} />
+                        <div className='flex-1 relative h-16 w-24'>
+                              <Image
+                                    src='/logo.png'
+                                    alt='Logo'
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                              />
                         </div>
 
                         <div className='flex-1 flex justify-center'>
