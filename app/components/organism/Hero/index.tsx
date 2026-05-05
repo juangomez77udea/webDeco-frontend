@@ -15,18 +15,17 @@ const Hero = () => {
                               style={{ width: 'auto', height: 'auto' }}
                         />
                   </div>
-                  <div className="relative w-1/3 h-full">
+                  <div className="relative w-2/5 h-full">
                         <Image
-                              src="/pinos.png"
+                              src="/hero.png"
                               alt="Pinos decorativos"
-                              width={500}
-                              height={400}
+                              width={600}
+                              height={600}
                               loading="eager"
-                              className="absolute left-0 bottom-0 opacity-20 select-none pointer-events-none"
-                              style={{ width: 'auto', height: 'auto' }}
+                              className="absolute left-0 bottom-0 opacity-70 select-none pointer-events-none m-10"
                         />
                   </div>
-                  <div className="w-1/3 h-full flex flex-col justify-start items-start pt-20 pl-8">
+                  <div className="w-1/5 h-full flex flex-col justify-center items-center pt-20 pl-8">
                         <Text
                               text="DeKoWeb"
                               variant="h1"
